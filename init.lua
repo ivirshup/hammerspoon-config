@@ -29,3 +29,29 @@ function reload_config()
   hsapp:selectMenuItem(cmd)
 end
 hs.hotkey.bind({"ctrl", "command"}, "r", reload_config)
+
+require("window_switcher")
+require("bluetooth_headphones")
+
+-- function timeit(func, ...)
+--   t0 = hs.timer.absoluteTime()
+--   func(...)
+--   t1 = hs.timer.absoluteTime()
+--   return t1 - t0
+-- end
+require("bluetooth_headphones")
+
+-- function timeit(func, ...)
+--   t0 = hs.timer.absoluteTime()
+--   func(...)
+--   t1 = hs.timer.absoluteTime()
+--   return t1 - t0
+-- end
+require("bluetooth_headphones")
+
+-- function timeit(func, ...)
+--   t0 = hs.timer.absoluteTime()
+--   func(...)
+--   t1 = hs.timer.absoluteTime()
+--   return t1 - t0
+-- end
