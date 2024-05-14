@@ -30,7 +30,7 @@ function reload_config()
 end
 hs.hotkey.bind({"ctrl", "command"}, "r", reload_config)
 
-require("window_switcher")
+-- require("window_switcher")
 
 require("bluetooth_headphones")
 
